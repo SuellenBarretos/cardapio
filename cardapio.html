@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Mandacaru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MANDACARU</h1>
+        <p>Bem-vindo ao nosso cardápio digital</p>
+    </header>
+
+    <section class="menu-category">
+        <h2 onclick="toggleSection('cafes')">Cafés</h2>
+        <div id="cafes" class="menu-items">
+            <div class="menu-item">
+                <h3>Café simples</h3>
+                <span>R$ 2,49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Café com leite</h3>
+                <span>R$ 3,49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino simples</h3>
+                <span>R$ 9,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Capuccino com nutella</h3>
+                <span>R$ 11,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino com doce de leite</h3>
+                <span>R$ 11,99</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-category">
+        <h2 onclick="toggleSection('bolos')">Bolos</h2>
+        <div id="bolos" class="menu-items">
+            <div class="menu-item">
+                <h3>Fubá</h3>
+                <span>R$ 14,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mandioca</h3>
+                <span>R$ 14,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mesclado</h3>
+                <span>R$ 14,99</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-category">
+        <h2 onclick="toggleSection('combinados')">Combinados</h2>
+        <div id="combinados" class="menu-items">
+            <div class="menu-item">
+                <h3>Pão, carne de panela e queijo c/ café</h3>
+                <span>R$ 12,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Pão, frango desfiado e queijo c/ café</h3>
+                <span>R$ 11,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Pão, ovo mexido e queijo c/ café</h3>
+                <span>R$ 11,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Pão e ovo mexido c/ café</h3>
+                <span>R$ 9,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Pão e queijo c/ café</h3>
+                <span>R$ 9,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Pão e manteiga c/ café</h3>
+                <span>R$ 7,99</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-category">
+        <h2 onclick="toggleSection('tortas')">Tortas</h2>
+        <div id="tortas" class="menu-items">
+            <div class="menu-item">
+                <h3>Torta de frango</h3>
+                <span>R$ 9,99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Torta de frango c/ queijo</h3>
+                <span>R$ 11,99</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
